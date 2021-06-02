@@ -8,5 +8,4 @@ const app = require('./app')
 
 mongo()
 
-
 app.listen(PORT, () => { console.log(`App ready in Port ${PORT}`) })
