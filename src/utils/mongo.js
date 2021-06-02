@@ -1,5 +1,4 @@
 const mongoose = require('mongoose')
-const dotenv = require('dotenv')
 const DB = process.env.DB.replace('<PASSWORD>', process.env.DB_PASSWORD)
 
 const connect = () => mongoose.connect(DB, {

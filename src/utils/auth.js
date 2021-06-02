@@ -1,5 +1,4 @@
 const jwt = require('jsonwebtoken')
-const dotenv = require('dotenv')
 const catchAsync = require('./catchAsync')
 
 const auth = function (req, res, next) {
